@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(135, 90, 156, 0.459);
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+#personalDetailsDiv {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  color: darkred;
+}
+
+.personalDetailsCards {
+  margin: 0 auto;
+}
+
+.personalDetailsCard {
+  border: 6px solid darkred;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  padding: 2%;
+  margin: 0 auto;
+  display: inline-block;
+  margin: 0 5%;
+}
+
+.personalDetailsCard:hover {
+  cursor: pointer;
+  border: 6px solid red;
+  background-color:  rgba(204, 148, 230, 0.459);
+}
+
+h3 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
